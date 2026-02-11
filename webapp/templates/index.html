@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Writing Analytics Platform</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Writing Analytics Platform</h1>
+    <p class="subtitle">Real-time academic writing evaluation powered by NLP & ML</p>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="analyzer">Analyzer</button>
+      <button class="tab" data-tab="rewrite">Rewrite Coach</button>
+    </div>
+
+    <!-- Analyzer Panel -->
+    <div id="panel-analyzer" class="panel active">
+      <div class="card">
+        <h2>Analyze Writing</h2>
+        <p class="muted">Paste a paragraph and get summary + writing scores + feature breakdown.</p>
+
+        <textarea id="analyzeText" placeholder="Paste your text here..."></textarea>
+        <button id="analyzeBtn">Analyze</button>
+
+        <div id="analyzeResult" class="card hidden"></div>
+      </div>
+    </div>
+
+    <!-- Rewrite Panel -->
+    <div id="panel-rewrite" class="panel">
+      <div class="card">
+        <h2>Rewrite Coach</h2>
+        <p class="muted">Compare two versions and see what improved.</p>
+
+        <label class="label">Original</label>
+        <textarea id="originalText" placeholder="Paste original text..."></textarea>
+
+        <label class="label">Revised</label>
+        <textarea id="revisedText" placeholder="Paste revised text..."></textarea>
+
+        <button id="compareBtn">Compare</button>
+
+        <div id="compareResult" class="card hidden"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
