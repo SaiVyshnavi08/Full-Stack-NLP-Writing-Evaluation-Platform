@@ -96,6 +96,14 @@ Cross-validation applied
 - Side-by-side analysis  
 
 ---
+![Dashboard Preview](https://github.com/user-attachments/assets/837e3d2b-48ba-4152-95c0-0632333ea655)
+
+<img width="1882" height="1418" alt="image" src="https://github.com/user-attachments/assets/d7e80f9c-f22d-4d95-8e71-7bde6225b0f4" />
+<img width="2086" height="1506" alt="image" src="https://github.com/user-attachments/assets/aa17ccc8-a921-4f41-a0b4-32f080e716c4" />
+<img width="1984" height="1360" alt="image" src="https://github.com/user-attachments/assets/6771d8fa-1987-4b3a-a701-590418f463b5" />
+
+
+
 
 ## 🛠 Installation & Running Locally
 
@@ -122,5 +130,5 @@ Full-stack integration
 
 Real-time interactive UI
 
-<img width="2146" height="1702" alt="image" src="https://github.com/user-attachments/assets/837e3d2b-48ba-4152-95c0-0632333ea655" />
+
 
