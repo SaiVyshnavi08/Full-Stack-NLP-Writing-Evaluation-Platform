@@ -121,4 +121,6 @@ Production-ready inference API
 Full-stack integration
 
 Real-time interactive UI
-<img width="2146" height="1702" alt="image" src="https://github.com/user-attachments/assets/c6b4f029-9e35-4c7b-b616-f6ab6fda8303" />
+
+<img width="2146" height="1702" alt="image" src="https://github.com/user-attachments/assets/837e3d2b-48ba-4152-95c0-0632333ea655" />
+
